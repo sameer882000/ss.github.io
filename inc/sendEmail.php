@@ -6,10 +6,12 @@ $siteOwnersEmail = 'sameer.882000@gmail.com';
 
 if($_POST) {
 
+	$to='sameer.882000@gmail.com';	 
    $name = trim(stripslashes($_POST['contactName']));
    $email = trim(stripslashes($_POST['contactEmail']));
    $subject = trim(stripslashes($_POST['contactSubject']));
    $contact_message = trim(stripslashes($_POST['contactMessage']));
+   
 
    // Check Name
 	if (strlen($name) < 2) {
@@ -25,7 +27,8 @@ if($_POST) {
 	}
    // Subject
 	if ($subject == '') { $subject = "Contact Form Submission"; }
-
+	
+	
 
    // Set Message
    $message .= "Email from: " . $name . "<br />";
