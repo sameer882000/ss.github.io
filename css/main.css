@@ -1102,6 +1102,26 @@ header .top-bar {
 	left: 90px;
 	top: 0;
 }
+header .logo {
+	float: left;
+	margin-left: 20px;
+	margin-right: 50px;
+	margin-top: 25px;
+	position: relative;
+}
+header .logo a {
+	display: block;
+	margin: 0;
+	padding: 0;
+	border: none;
+	font: 0/0 a;
+	text-shadow: none;
+	color: transparent;
+	width: 90px;
+	height: 20px;
+	background: url("../images/logo.png") no-repeat center;
+	background-size: 180px 180px;
+}
 
 
 /**
