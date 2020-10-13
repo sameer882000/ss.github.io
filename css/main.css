@@ -1067,7 +1067,7 @@ header .row {
 header .top-bar {
 	display: block;
 	background: #000000;
-	min-width: 220px;
+	min-width: 198px;
 	min-height: 66px;
 	position: absolute;
 	left: 90px;
@@ -1076,7 +1076,7 @@ header .top-bar {
 header .logo {
 	float: left;
 	margin-left: 20px;
-	margin-right: 50px;
+	margin-right: 20px;
 	margin-top: 25px;
 	position: relative;
 }
@@ -1202,7 +1202,7 @@ header .logo a {
 /* dropdown nav */
 .main-navigation {
 	background: #000000;
-	padding: 24px 30px 42px;
+	padding: 24px 30px 12px;
 	margin: 0;
 	width: 100%;
 	height: auto;
